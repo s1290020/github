@@ -22,7 +22,9 @@ while total < 3:
         tails += 1
 
 print("Heads: %d, Tails: %d" % (heads,tails))
+
 if heads > tails:
     print(name+" won!")
 else :
     print(name+" lost!")
+
